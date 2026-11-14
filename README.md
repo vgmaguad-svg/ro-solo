@@ -2,6 +2,8 @@
 
 An offline, single-player, browser game inspired by classic (pre-Renewal) Ragnarok Online mechanics: click-to-move on a grid, auto-attack combat, Base/Job levels, six stats, element/size tables, card slots, refining. Original names and art.
 
+**Play:** [https://vgmaguad-svg.github.io/ro-solo/](https://vgmaguad-svg.github.io/ro-solo/)
+
 ## Team relay
 | Role | Who | Does |
 |---|---|---|
@@ -18,8 +20,13 @@ An offline, single-player, browser game inspired by classic (pre-Renewal) Ragnar
 - `docs/ART_BRIEFS.md` — prompts for art
 - `data/` — all numbers (monsters, items, drops, EXP, elements, sizes, classes)
 
-## Run locally (after T01)
-```
+## Run locally
+
+```sh
 npm install
 npm run dev
 ```
+
+Run the automated checks with `npm test` and create a production build with
+`npm run build`. Production builds include the root `data/` files at
+`dist/data/` for runtime loading.
