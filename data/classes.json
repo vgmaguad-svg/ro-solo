@@ -1,0 +1,48 @@
+{
+ "_source": "iRO Wiki Classic HP page (HP_A/HP_B); SP_JOB: Mage 6 verified, others DESIGN PLACEHOLDER",
+ "classes": {
+  "novice": {
+   "hpA": 0,
+   "hpB": 5,
+   "spJob": 1,
+   "maxJob": 10,
+   "weapons": [
+    "dagger",
+    "sword1h"
+   ],
+   "next": [
+    "swordman",
+    "mage"
+   ]
+  },
+  "swordman": {
+   "hpA": 0.7,
+   "hpB": 5,
+   "spJob": 2,
+   "maxJob": 50,
+   "weapons": [
+    "dagger",
+    "sword1h",
+    "sword2h",
+    "spear"
+   ],
+   "jobBonusTotalAt50": {
+    "str": 7,
+    "agi": 2,
+    "vit": 4,
+    "dex": 3,
+    "luk": 2
+   }
+  },
+  "mage": {
+   "hpA": 0.3,
+   "hpB": 5,
+   "spJob": 6,
+   "maxJob": 50,
+   "weapons": [
+    "dagger",
+    "rod"
+   ]
+  }
+ }
+}

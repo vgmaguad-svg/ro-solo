@@ -1,0 +1,162 @@
+{
+ "_source": "names original; ro_ref for mapping; numbers are DESIGN VALUES (not sourced) unless dossier says otherwise",
+ "items": [
+  {
+   "id": "jelly_goo",
+   "name": "Jelly Goo",
+   "ro_ref": "Jellopy",
+   "type": "etc",
+   "weight": 1,
+   "buy": null,
+   "sell": 3
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "ro_ref": "Apple",
+   "type": "usable",
+   "weight": 2,
+   "buy": 15,
+   "sell": 7,
+   "use": {
+    "healHp": [
+     16,
+     22
+    ]
+   }
+  },
+  {
+   "id": "empty_bottle",
+   "name": "Empty Bottle",
+   "type": "etc",
+   "weight": 2,
+   "buy": null,
+   "sell": 3
+  },
+  {
+   "id": "sticky_slime",
+   "name": "Sticky Slime",
+   "ro_ref": "Sticky Mucus",
+   "type": "etc",
+   "weight": 1,
+   "buy": null,
+   "sell": 35
+  },
+  {
+   "id": "red_tonic",
+   "name": "Red Tonic",
+   "ro_ref": "Red Potion",
+   "type": "usable",
+   "weight": 7,
+   "buy": 50,
+   "sell": 25,
+   "use": {
+    "healHp": [
+     45,
+     65
+    ]
+   }
+  },
+  {
+   "id": "wing_feather",
+   "name": "Wing Feather",
+   "ro_ref": "Fly Wing",
+   "type": "usable",
+   "weight": 5,
+   "buy": 60,
+   "sell": 30,
+   "use": {
+    "teleport": "random_on_map"
+   }
+  },
+  {
+   "id": "return_feather",
+   "name": "Return Feather",
+   "ro_ref": "Butterfly Wing",
+   "type": "usable",
+   "weight": 5,
+   "buy": 300,
+   "sell": 150,
+   "use": {
+    "teleport": "save_point"
+   }
+  },
+  {
+   "id": "knife",
+   "name": "Knife",
+   "type": "weapon",
+   "subtype": "dagger",
+   "weaponLv": 1,
+   "atk": 17,
+   "slots": 3,
+   "weight": 40,
+   "buy": 50,
+   "sell": 25,
+   "equip": "rightHand",
+   "jobs": [
+    "novice",
+    "swordman",
+    "mage"
+   ]
+  },
+  {
+   "id": "knife_s4",
+   "name": "Knife",
+   "type": "weapon",
+   "subtype": "dagger",
+   "weaponLv": 1,
+   "atk": 17,
+   "slots": 4,
+   "weight": 40,
+   "buy": null,
+   "sell": 25,
+   "equip": "rightHand",
+   "jobs": [
+    "novice",
+    "swordman",
+    "mage"
+   ]
+  },
+  {
+   "id": "cotton_shirt",
+   "name": "Cotton Shirt",
+   "type": "armor",
+   "def": 1,
+   "slots": 0,
+   "weight": 10,
+   "buy": 10,
+   "sell": 5,
+   "equip": "armor"
+  },
+  {
+   "id": "rod_s4",
+   "name": "Rod",
+   "type": "weapon",
+   "subtype": "rod",
+   "weaponLv": 1,
+   "atk": 15,
+   "matk": 15,
+   "slots": 4,
+   "weight": 40,
+   "buy": null,
+   "sell": 25,
+   "equip": "rightHand",
+   "jobs": [
+    "novice",
+    "mage"
+   ]
+  },
+  {
+   "id": "card_jellybop",
+   "name": "Jellybop Card",
+   "type": "card",
+   "slotType": "armor",
+   "weight": 1,
+   "sell": 10,
+   "effect": {
+    "luk": 2,
+    "perfectDodge": 1
+   }
+  }
+ ]
+}

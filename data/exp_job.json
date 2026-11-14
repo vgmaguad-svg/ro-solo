@@ -1,0 +1,29 @@
+{
+ "_source": "iRO Wiki Classic Job EXP Chart; novice exact, first class sampled -> interpolate geometrically between samples",
+ "novice": {
+  "maxJob": 10,
+  "toNext": {
+   "1": 30,
+   "2": 43,
+   "3": 58,
+   "4": 76,
+   "5": 116,
+   "6": 180,
+   "7": 220,
+   "8": 272,
+   "9": 336
+  }
+ },
+ "first": {
+  "maxJob": 50,
+  "samples": {
+   "1": 144,
+   "5": 603,
+   "10": 3676,
+   "20": 35108,
+   "30": 174201,
+   "40": 610246,
+   "49": 2083386
+  }
+ }
+}

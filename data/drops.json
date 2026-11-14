@@ -1,0 +1,73 @@
+{
+ "_source": "rates out of 10000 (1 = 0.01%). jellybop/emberbop from dossier (Poring/Drops); others design",
+ "drops": {
+  "jellybop": [
+   [
+    "jelly_goo",
+    7000
+   ],
+   [
+    "empty_bottle",
+    1500
+   ],
+   [
+    "apple",
+    1000
+   ],
+   [
+    "sticky_slime",
+    400
+   ],
+   [
+    "knife_s4",
+    100
+   ],
+   [
+    "card_jellybop",
+    1
+   ]
+  ],
+  "emberbop": [
+   [
+    "jelly_goo",
+    7000
+   ],
+   [
+    "apple",
+    1000
+   ],
+   [
+    "sticky_slime",
+    600
+   ],
+   [
+    "wing_feather",
+    500
+   ],
+   [
+    "rod_s4",
+    80
+   ]
+  ],
+  "fluffkit": [
+   [
+    "apple",
+    1500
+   ],
+   [
+    "jelly_goo",
+    3000
+   ]
+  ],
+  "thornpup": [
+   [
+    "red_tonic",
+    300
+   ],
+   [
+    "sticky_slime",
+    800
+   ]
+  ]
+ }
+}
