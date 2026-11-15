@@ -4,8 +4,8 @@ Status: ⬜ todo · 🟨 in progress · ✅ merged
 
 | ID | Task | Status |
 |---|---|---|
-| T01 | Project scaffold + deploy | 🟨 |
-| T02 | Data loaders + stat/formula systems (tested) | ⬜ |
+| T01 | Project scaffold + deploy | ✅ |
+| T02 | Data loaders + stat/formula systems (tested) | 🟨 |
 | T03 | Tile map, camera, click-to-move with A* | ⬜ |
 | T04 | Monsters: spawn, random walk, AI FSM | ⬜ |
 | T05 | Combat loop + floating damage | ⬜ |

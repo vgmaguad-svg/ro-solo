@@ -28,5 +28,5 @@ npm run dev
 ```
 
 Run the automated checks with `npm test` and create a production build with
-`npm run build`. Production builds include the root `data/` files at
-`dist/data/` for runtime loading.
+`npm run build`. The root `data/` files are available at `/data/*.json` during
+development and copied to `dist/data/` for production runtime loading.

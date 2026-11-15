@@ -8,6 +8,11 @@ Not done / deviations: ...
 Open questions for designer: ...
 ```
 
+## 2026-11-15 — T02 — Codex (builder)
+Built: Typed loaders for all eight game-data JSON files; dev and production serving for `/data/*.json`; pure stat, derived-stat, weight, ASPD, hit-roll, physical-damage, monster-damage, and magic-damage formulas with injectable RNG; and worked-example Vitest coverage for every implemented formula.
+Not done / deviations: none.
+Open questions for designer: none.
+
 ## 2026-11-15 — T01 — Codex (builder)
 Built: Vite + TypeScript + Phaser 3 scaffold with Boot, Preload, Field, and UI scenes; a 1280×720 Scale.FIT green grid; Vitest sample coverage; build-time data copying; and a GitHub Pages deployment workflow. Updated the README with local commands and the live URL.
 Not done / deviations: The live Pages deployment will run after this PR merges to `main`.

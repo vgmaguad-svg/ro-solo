@@ -1,5 +1,5 @@
 {
- "_source": "iRO Wiki Classic HP page (HP_A/HP_B); SP_JOB: Mage 6 verified, others DESIGN PLACEHOLDER",
+ "_source": "iRO Wiki Classic HP page (HP_A/HP_B); SP_JOB: Mage 6 verified, others DESIGN PLACEHOLDER; BTBA design values from docs/FORMULAS.md",
  "classes": {
   "novice": {
    "hpA": 0,
@@ -10,6 +10,11 @@
     "dagger",
     "sword1h"
    ],
+   "btba": {
+    "unarmed": 0.5,
+    "dagger": 0.65,
+    "sword1h": 0.7
+   },
    "next": [
     "swordman",
     "mage"
@@ -26,6 +31,12 @@
     "sword2h",
     "spear"
    ],
+   "btba": {
+    "unarmed": 0.5,
+    "dagger": 0.65,
+    "sword1h": 0.7,
+    "sword2h": 0.75
+   },
    "jobBonusTotalAt50": {
     "str": 7,
     "agi": 2,
@@ -42,7 +53,12 @@
    "weapons": [
     "dagger",
     "rod"
-   ]
+   ],
+   "btba": {
+    "unarmed": 0.5,
+    "dagger": 0.7,
+    "rod": 0.75
+   }
   }
  }
 }
